@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css">
+    <title>Combinadores</title>
+    <style>
+        /*
+        Combinadores: qual tipo de relação entre 2 seletores.
+        1 - Combinador descendente (espaço)
+        2 - Combinador filho (>)
+        3 - Combinador irmão adjacente (+)
+        4 - Combinador irmão em geral (~)
+
+        [seletor] [combinador] [seletor]    
+              
+        */
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Combinadores</h1>
+    </header>
+    <main>
+        <ul>
+            <li class="fundo-verde" id="lista-01">
+                <div>Item 1</div>
+                <ul id="sublista-01">
+                    <li>Subitem A</li>
+                    <li>Subitem B</li>
+                </ul>
+            </li>
+            <li class="fundo-verde" id="lista-02">
+                <div>Item 2</div>
+                <ul id="sublista-02">
+                    <li>Subitem A</li>
+                    <li>Subitem B</li>
+                </ul>
+            </li>
+            <li class="fundo-azul" id="lista-03">
+                <div>Item 3</div>
+                <ul id="sublista-03">
+                    <li>Subitem A</li>
+                    <li>Subitem B</li>
+                </ul>
+            </li>
+        </ul><br><hr>
+        <div class="fundo-verde">
+            <h1>Combinador filho e irmão</h1>
+            <p>Parágrafo 1 dentro da div</p>
+            <p>Parágrafo 2 dentro da div</p>
+            <span>
+                <p>
+                    Parágrafo 3 dentro da div, dentro do span
+                </p>
+            </span>
+        </div>
+        <p>Parágrafo 4, fora da div</p>
+        <p>Parágrafo 5, fora da div</p>
+        <div class="fundo-verde">
+            <p>Parágrafo 6 dentro da div</p>
+            <p>Parágrafo 7 dentro da div</p>
+            <span>
+                <p>
+                    Parágrafo 8 dentro da div, dentro do span
+                </p>
+            </span>
+        </div>
+        <p>Parágrafo 9, fora da div</p>
+        <p>Parágrafo 10, fora da div</p>
+        <div class="fundo-azul">
+            <p>Parágrafo 11 dentro da div</p>
+            <p>Parágrafo 12 dentro da div</p>
+            <span>
+                <p>
+                    Parágrafo 13 dentro da div, dentro do span
+                </p>
+            </span>
+        </div>
+        <p>Parágrafo 14, fora da div</p>
+        <p>Parágrafo 15, fora da div</p><br><hr>
+        <h1>Combinando vários seletores</h1>
+        <div class="fundo-verde">
+            <p>Elemento 01</p>
+            <p>Elemento 02</p>
+            <span>
+                <p>Elemento 03</p>
+                <p>Elemento 04</p>
+            </span>
+            <p>Elemento 05</p>
+            <p>Elemento 06</p>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

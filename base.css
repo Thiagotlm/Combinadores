@@ -1,0 +1,55 @@
+/*Combinador descendente*/
+/*li li{
+    color: red;
+}
+
+#lista-01 li{
+    background-color: aquamarine;
+}
+
+.fundo-verde li{
+    background-color: lightgreen;
+}
+
+.fundo-azul li{
+    background-color: lightblue;
+}
+
+li{
+    color: red;
+}
+
+.fundo-verde #sublista-01 li{
+    color: black;
+}
+
+.fundo-verde #sublista-02 li{
+    color: blue;
+}*/
+
+/*Combinador filho*/
+/*Combinador irmão adjacente*/
+
+/*div + p{
+    color: red;
+}
+
+.fundo-verde + p{
+    background-color: lightseagreen;
+}
+*/
+/*Combinador irmão geral
+
+div ~ p{
+    color: red;
+}
+.fundo-verde ~ p{
+    background-color: lightgreen;
+}
+*/
+
+/*Usando vários seletores*/
+
+.fundo-verde span + p {
+    background-color: lightgreen;
+}
